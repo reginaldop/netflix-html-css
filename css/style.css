@@ -1,0 +1,151 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background-color: #141414;
+}
+.container {
+	height: 100vh;
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.8) 0%,
+			rgba(0, 0, 0, 0.2) 20%,
+			rgba(20, 20, 20, 0.2) 80%,
+			rgba(20, 20, 20, 1) 100%
+		),
+		url(../images/poster.jpg);
+	background-size: cover;
+	padding: 0.26rem 0.75rem 0 0.75rem;
+}
+.hero {
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+	padding: 0 3rem;
+}
+.header {
+	display: flex;
+	align-items: center;
+}
+.logo img {
+	width: 5.8rem;
+}
+.menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+.menu-left,
+.menu-right {
+	display: flex;
+	color: #e5e5e5;
+	font-size: 0.875rem;
+}
+.menu ul {
+	display: flex;
+	list-style: none;
+	align-items: center;
+}
+.menu ul li {
+	padding-right: 0.9rem;
+}
+.menu .user img {
+	width: 2rem;
+	margin-right: 0.5rem;
+}
+.menu .user {
+	display: flex;
+	align-items: center;
+}
+.menu i {
+	font-size: 20px;
+}
+.menu-right ul li {
+	padding-right: 1.5rem;
+}
+.banner {
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+}
+.banner .poster {
+	width: 450px;
+}
+.banner .subtitle {
+	font-size: 1.25rem;
+	color: #fff;
+	line-height: 1.25;
+	padding-top: 0.5rem;
+}
+.buttons {
+	margin-top: 2rem;
+}
+.buttons .btn {
+	color: #fff;
+	padding: 0.6rem 2rem;
+	margin-right: 0.75rem;
+	font-weight: 600;
+	border-radius: 0.125rem;
+	background: rgba(51, 51, 51, 0.4);
+	font-family: inherit;
+	font-size: 100%;
+	border: 0;
+}
+.buttons .btn i {
+	margin-right: 0.5rem;
+}
+.category {
+	height: 200px;
+}
+.category span {
+	color: #e5e5e5;
+	font-size: 18px;
+	line-height: 17px;
+	font-weight: 600;
+}
+.slider {
+	margin-top: 0.8rem;
+	display: flex;
+	overflow: hidden;
+	position: absolute;
+	left: 3.75rem;
+	right: 0;
+}
+.slider .movie {
+	min-width: 19.3%;
+}
+.slider .movie img {
+	max-width: 100%;
+	padding-right: 5px;
+}
+.footer {
+	margin: 100px auto 0;
+	width: 80%;
+	color: #808080;
+}
+.footer .social i {
+	padding-right: 26px;
+	font-size: 28px;
+}
+.flex {
+	display: flex;
+	padding-bottom: 80px;
+}
+.footer .info {
+	width: 25%;
+}
+.footer .info ul {
+	list-style: none;
+	display: inline;
+	font-size: 13px;
+}
+.footer .info ul li {
+	margin-top: 8px;
+}
